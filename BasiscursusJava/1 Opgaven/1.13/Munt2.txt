@@ -1,0 +1,32 @@
+// Munt.java: Bereken hoe een ingegeven bedrag in een veelvoud van 5 eurocent uitbetaald kan worden in een minimaal aantal euromunten
+// 2/1 Euro, 50/20/10/5 eurocent
+// BvB 07.01.2016
+
+import java.io.*;
+
+public class Munt
+{ public static void main(String[] args)
+  throws java.io.IOException
+  { InputStreamReader isr =
+    new InputStreamReader(System.in);
+    BufferedReader in = new BufferedReader(isr);
+    System.out.println("Typ bedrag in eurocent in: ");
+    System.out.flush();
+    b = Integer.parseInt(in.readLine()) + 2; // ter afronding: 1,2 --> 0; 3,4 --> 5
+
+   static int munten(int bedrag, int muntwaarde, String naam)
+   { int q = bedrag / muntwaarde;
+     if (q>0)
+        { System.out.println(q+" "+naam);
+          System.out.println(q>1?""
+    (" Bedrag " + e + " Euro " + ec + " cent wordt als volgt uitbetaald: " 
+    + m2 + " x 2 Euro, " 
+    + m3 + " x 1 Euro, " 
+    + m4 + " x 50 Eurocent, "
+    + m5 + " x 20 Eurocent, "
+    + m6 + " x 10 Eurocent, "
+    + b7 + " x 5 Eurocent.");
+
+  }
+
+}

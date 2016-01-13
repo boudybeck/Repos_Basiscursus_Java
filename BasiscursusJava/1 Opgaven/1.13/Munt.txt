@@ -1,0 +1,2 @@
+Typ bedrag in eurocent in: 
+ Bedrag 15 Euro 60 cent wordt als volgt uitbetaald: 7 x 2 Euro, 1 x 1 Euro, 1 x 50 Eurocent, 0 x 20 Eurocent, 1 x 10 Eurocent, 0 x 5 Eurocent.
